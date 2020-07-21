@@ -1,14 +1,15 @@
 # Oh-My-ZSH
 This is my configaration file for zsh....
-## Install zsh through your Package Manager
+## Step To Install and Configure Your ZSH
+## 1) Install zsh through your Package Manager
 ```
 sudo pacman -S zsh
 ```
-## make Zsh Your Default shell                                                                                                                                 
+## 2) make Zsh Your Default shell                                                                                                                                 
 ```   
 chsh 
 ```
-## Then change it to /bin/zsh
+## 3) Then change it to /bin/zsh
 ```
 /bin/bash >> /bin/zsh
 ```
@@ -16,26 +17,26 @@ chsh
 ``` 
 echo $SHELL >> /usr/bin/zsh
 ```
-## Installing Oh My Zsh
+## 4) Installing Oh My Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-## Installing PowerLeve10K Theme
+## 5) Installing PowerLeve10K Theme
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
-## Install FuraMono Nerd Font
+## 6) Install FuraMono Nerd Font
 **For Arch-** `yay -S otf-fura-mono-powerline-git`    
 
-## Download Plugins for auto-suggestion
+## 7) Download Plugins for auto-suggestion
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
-## Download Plugins for Syntax Highlighting
+## 8) Download Plugins for Syntax Highlighting
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
-## Change ypur .zshrc file in your home folder
+## 9) Change your .zshrc file in your home folder
 ```
 sudo nano ~/.zshrc
 ```
@@ -59,11 +60,11 @@ Plugins=(git)
 //To This
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
-## Now save your `.zshrc` file and exit
-## Change Font
+## 10) Now save your `.zshrc` file and exit
+## 11) Change Font
 You will also have to go to **preferences** of your terminal and change to the custom **font** which you installed.
 `FiraMono Nerd Font Regular 12`
 
-## Now the last Step
+## 12) Now the last Step
 You will need to run **p10k configure** command to setup your terminal looks as per your choice. Just follow the steps. In the last select **option 3** which is **verbose** and then hit **Y** to save changes to your `.zshrc` file
 
