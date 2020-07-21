@@ -64,7 +64,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ## 11) Change Font
 You will also have to go to **preferences** of your terminal and change to the custom **font** which you installed.
 `FiraMono Nerd Font Regular 12`
-
 ## 12) Now the last Step
 You will need to run **p10k configure** command to setup your terminal looks as per your choice. Just follow the steps. In the last select **option 3** which is **verbose** and then hit **Y** to save changes to your `.zshrc` file
 
